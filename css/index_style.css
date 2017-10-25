@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Rye');
+
+html {
+    background: url(../img/landingPage.png) no-repeat center center fixed;
+    background-position: 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*If you want it to work in IE*/
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
+/*****************************
+        Nav Bar Styles
+********************************/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    margin-top: 15px;
+    font-family: 'Rye', sans-serif;
+}
+
+header h1 a{
+    text-decoration:none;
+    color: darkred;
+    padding-left: 70px;
+}
+
+nav{
+    float: left;
+    display: inline-block;
+    padding: 413px 0 0 753px;
+    transform: scale(1.2);
+}
+
+nav ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgba(150,40,40, 0.4);
+    font-family: 'Rye', sans-serif;
+    font-size: 20px;
+}
+
+nav li{
+    height: 72px;
+    line-height: 72px;
+    width: 180px;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: all 150ms ease;
+}
+
+nav a:hover{
+    background-color: rgba(255,100,100, 0.8);
+    color: rgb(139,0,0);
+}
