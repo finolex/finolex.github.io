@@ -1,9 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rye');
 
-/*******************
+/********************
     Nav Bar Styles
-********************/
+*********************/
+
 
 body{
     padding: 0;
@@ -39,6 +40,18 @@ nav{
     float: right;
     display: inline-block;
     margin-right: 50px;
+}
+
+nav div {
+    width: 35px;
+    height: 5px;
+    background-color: darkred;
+    margin: 6px 0;
+    display: none;
+}
+
+.One {
+    margin-top: 25px;
 }
 
 nav ul{
@@ -174,21 +187,55 @@ h3 a{
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
 
+nav ul{
+    display: none;
+}
+
+nav div {
+    display: block;
+}
 
 }
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
 
+nav ul{
+    display: none;
+}
+
+nav div {
+    display: block;
+}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
+nav ul{
+    display: none;
+}
+
+nav div {
+    display: block;
+}
 
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {
+
+nav ul{
+    display: none;
+}
+
+nav div {
+    display: block;
+}
+
+h1 a{
+    display: none;
+}
 
 }
