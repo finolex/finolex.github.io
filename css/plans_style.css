@@ -30,6 +30,7 @@ header img{
     transform: scale(0.3);
 }
 
+
 nav{
     float: right;
     display: inline-block;
@@ -46,6 +47,7 @@ nav div {
 
 .One {
     margin-top: 25px;
+
 }
 
 nav ul{
@@ -91,15 +93,11 @@ html{
     margin: 0;
 }
 
-.wrapper{
-    margin: 0 auto;
-    padding: 100px;
-    width: 1000px;
-    padding-top: 90px;
+.container{
+    padding-top: 5%;
 }
 
 .plansCaption{
-    margin-left: 100px;
     padding-bottom: 20px;
     font-size: 40px;
 }
@@ -110,19 +108,21 @@ article li{
 
 .basic, .upgraded, .unlimited{
     box-shadow: -10px 10px 5px #888888;
+    margin-bottom: 5%;
 }
 
 .clearfix::after{
     display: inline-block;
 }
+
 /*********************
     Basic Styles
 **********************/
 
 .basic{
-    width:300px;
+    min-height: 400px;
+    min-width:300px;
     background: rgba(202, 38, 139, 0.6);
-    float: left;
 }
 
 article h2{
@@ -163,9 +163,9 @@ h3 a{
 **********************/
 
 .upgraded{
-    width:300px;
+    min-height: 420px;
+    min-width:300px;
     background: rgba(202, 38, 139, 0.6);
-    float: left;
 }
 
 /*********************
@@ -173,9 +173,9 @@ h3 a{
 **********************/
 
 .unlimited{
-    width:300px;
+    min-height: 450px;
+    min-width:300px;
     background: rgba(202, 38, 139, 0.6);
-    float: left;
 }
 
 /*********************
@@ -218,6 +218,10 @@ nav div {
     display: block;
 }
 
+.container{
+    padding-top: 8%;
+}
+
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size */
@@ -234,5 +238,10 @@ nav div {
 h1 a{
     display: none;
 }
+
+.container{
+    padding-top: 20%;
+}
+
 
 }

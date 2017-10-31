@@ -101,11 +101,8 @@ html{
     margin: 0;
 }
 
-.wrapper{
-    margin: 0 auto;
-    padding: 100px;
-    width: 996px;
-    padding-top: 90px;
+.container{
+    padding-top: 5%;
 }
 
 .contactCaption{
@@ -136,10 +133,10 @@ footer a{
 }
 
 /*********************
-    Abhi
+    Abhi/Asam
 **********************/
 
-.abhi{
+.abhi, .asam{
     background: rgba(202, 38, 139, 0.6);
     display: inline-block;
 }
@@ -152,7 +149,7 @@ article img{
 }
 
 article {
-    min-height: 320px;
+    min-height: 250px;
 }
 
 article h2{
@@ -166,35 +163,16 @@ article h2{
 }
 
 article ul{
-    margin: 15px;
-    margin-right: 20px;
+    margin: 20px;
     color: rgb(253, 232, 232);
     font-family: sans-serif;
     list-style-type: none;
     font-size: 20px;
-    float: right;
+    float: left;
     padding: 0;
     text-shadow: -2px 2px #888888;
 }
 
-/*********************
-    Asam
-**********************/
-
-.asam{
-    background: rgba(202, 38, 139, 0.6);
-    display: inline-block;
-}
-
-.asamUL{
-    min-width: 280px;
-    color: rgb(253, 232, 232);
-    font-family: sans-serif;
-    list-style-type: none;
-    font-size: 20px;
-    display: inline-block;
-    padding: 0;
-}
 
 /*********************
     Icons
@@ -227,6 +205,10 @@ nav div {
     display: block;
 }
 
+.abhi, .asam{
+    margin-bottom: 5%;
+}
+
 }
 
 /* All Mobile Sizes */
@@ -238,6 +220,9 @@ nav ul{
 
 nav div {
     display: block;
+}
+.abhi, .asam{
+    margin-bottom: 5%;
 }
 
 }
@@ -251,6 +236,13 @@ nav ul{
 
 nav div {
     display: block;
+}
+.abhi, .asam{
+    margin-bottom: 5%;
+}
+
+.container{
+    padding-top: 8%;
 }
 
 }
@@ -269,5 +261,14 @@ nav div {
 h1 a{
     display: none;
 }
+
+.abhi, .asam{
+    margin-bottom: 5%;
+}
+
+.container{
+    padding-top: 20%;
+}
+
 
 }
