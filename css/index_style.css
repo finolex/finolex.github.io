@@ -35,7 +35,6 @@ header h1 a{
 }
 
 nav{
-    float: left;
     display: inline-block;
     padding: 413px 0 0 753px;
     transform: scale(1.2);
@@ -68,4 +67,69 @@ nav a{
 nav a:hover{
     background-color: rgba(255,100,100, 0.8);
     color: rgb(139,0,0);
+}
+
+
+/*********************
+    Media Queries
+**********************/
+
+@media only screen and (min-width: 768px) and (max-width: 1530px) {
+
+html{
+    background: none;
+    background-color: pink;
+}
+
+nav{
+    padding: 0;
+    transform: scale(1);
+}
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+
+html{
+    background: none;
+    background-color: pink;
+}
+
+nav{
+    padding: 0;
+    transform: scale(1);
+}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+html{
+    background: none;
+    background-color: pink;
+}
+
+nav{
+    padding: 0;
+    transform: scale(1);
+}
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+
+html{
+    background: none;
+    background-color: pink;
+}
+
+nav{
+    padding: 0;
+    transform: scale(1);
+}
+
+
 }

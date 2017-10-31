@@ -21,20 +21,15 @@ header{
     background-color: rgba(228, 114, 151, 0.5);
 }
 
-header h1{
+header img{
     display: inline-block;
-    margin: 0;
-    padding: 10px;
-    padding-top: 15px;
+    margin-top: -50px;
+    padding: 0;
     text-decoration: none;
     font-family: 'Rye', sans-serif;  
+    transform: scale(0.3);
 }
 
-header h1 a{
-    text-decoration: none;
-    color: darkred;
-    font: 36px 'Rye' 'Helvetica' sans-serif;
-}
 
 nav{
     float: right;
@@ -166,6 +161,10 @@ h3 a{
     text-shadow: -2px 2px #888888;
 }
 
+.makesmall:hover{
+    transition: all .1s ease-in-out;
+    transform: scale(0.9);
+}
 
 /*********************
     Media Queries

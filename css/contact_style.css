@@ -21,19 +21,13 @@ header{
     background-color: rgba(228, 114, 151, 0.5);
 }
 
-header h1{
+header img{
     display: inline-block;
-    margin: 0;
-    padding: 10px;
-    padding-top: 15px;
+    margin-top: -50px;
+    padding: 0;
     text-decoration: none;
     font-family: 'Rye', sans-serif;  
-}
-
-header h1 a{
-    text-decoration: none;
-    color: darkred;
-    font: 36px 'Rye' 'Helvetica' sans-serif;
+    transform: scale(0.3);
 }
 
 nav{
@@ -147,14 +141,18 @@ footer a{
 
 .abhi{
     background: rgba(202, 38, 139, 0.6);
-    float: left;
+    display: inline-block;
 }
 
-img{
+article img{
     margin: 10px;
     margin-right: 0;
     padding:0;
     box-shadow: -3px 3px 5px #888888;
+}
+
+article {
+    min-height: 320px;
 }
 
 article h2{
@@ -185,20 +183,35 @@ article ul{
 
 .asam{
     background: rgba(202, 38, 139, 0.6);
-    float: left;
+    display: inline-block;
 }
 
 .asamUL{
-    margin: 30px;
-    margin-right: 60px;
+    min-width: 280px;
     color: rgb(253, 232, 232);
     font-family: sans-serif;
     list-style-type: none;
     font-size: 20px;
-    float: right;
+    display: inline-block;
     padding: 0;
 }
 
+/*********************
+    Icons
+**********************/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: -10px 10px 5px #888888;
+}
+
+.fa-linkedin {
+    background: cornflowerblue;
+    color: white;
+}
 
 /*********************
     Media Queries
