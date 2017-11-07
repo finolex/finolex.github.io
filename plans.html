@@ -23,10 +23,13 @@
 				<li class="nav"><a href="plans.html">Plans</a></li>
 				<li class="nav"><a href="contact.html">Contact</a></li>
 			</ul>
-			<div class="One">
-				<div></div>
-				<div></div>
-				<div></div> 
+			<div class="One" onclick="dropdowntoggle()">
+				<img id="menuicon" src="img/menu-alt-512.png">
+				<div class="dropdown">
+					<a href="about.html" class="hide" id="hide">About</a>
+					<a href="plans.html" class="hide" id="hide2">Plans</a>
+					<a href="contact.html" class="hide" id="hide3">Contact</a>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -84,6 +87,32 @@
 		</div>
 	</main>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="js/scripts.js"></script>
+<script type="text/javascript">
+	function dropdowntoggle(){
+
+	var x = document.getElementById("hide");
+	var y = document.getElementById("hide2");
+	var z = document.getElementById("hide3");
+
+
+	if(x.style.display == 'none'){
+		x.style.display = 'block';
+	} else {
+		x.style.display = 'none';
+	}
+
+	if(y.style.display == 'none'){
+		y.style.display = 'block';
+	} else {
+		y.style.display = 'none';
+	}
+
+	if(z.style.display == 'none'){
+		z.style.display = 'block';
+	} else {
+		z.style.display = 'none';
+	}
+}
+</script>
 </body>
 </html>

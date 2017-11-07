@@ -25,10 +25,9 @@ header img{
     display: inline-block;
     margin-top: -50px;
     padding: 0;
-    text-decoration: none;
-    font-family: 'Rye', sans-serif;  
     transform: scale(0.3);
 }
+
 
 nav{
     float: right;
@@ -37,15 +36,18 @@ nav{
 }
 
 nav div {
-    width: 35px;
-    height: 5px;
-    background-color: darkred;
-    margin: 6px 0;
+    width: 60px;
     display: none;
+}
+
+nav img{
+    transform: scale(0.8);
+    margin-top: -18px;
 }
 
 .One {
     margin-top: 25px;
+
 }
 
 nav ul{
@@ -79,6 +81,23 @@ nav a:hover{
 nav a:active{
     background-color: rgba(228, 114, 151, 0.8);
     color: rgb(139,0,0);
+}
+
+.dropdown{
+    display: hidden;
+}
+
+.hide{
+    height: 70px;
+    line-height: 70px;
+    min-width: 100px;
+    background-color: rgba(228, 114, 151, 0.7);
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-family: 'Rye', sans-serif;
+    float: right;
 }
 
 /*****************
@@ -205,6 +224,10 @@ nav div {
     display: block;
 }
 
+.hide{
+    display: none;
+}
+
 .abhi, .asam{
     margin-bottom: 5%;
 }
@@ -221,6 +244,10 @@ nav ul{
 nav div {
     display: block;
 }
+
+.hide{
+    display: none;
+}
 .abhi, .asam{
     margin-bottom: 5%;
 }
@@ -236,6 +263,10 @@ nav ul{
 
 nav div {
     display: block;
+}
+
+.hide{
+    display: none;
 }
 .abhi, .asam{
     margin-bottom: 5%;
@@ -259,6 +290,10 @@ nav div {
 }
 
 h1 a{
+    display: none;
+}
+
+.hide{
     display: none;
 }
 
