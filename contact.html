@@ -1,96 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<title> Engage Healthcare Contact</title>
-	<meta charset="UTF-8"/>
-	<meta name="description" content="Affordable. Healthcare."/>
-	<meta name="keywords" content="healthcare, affordable, engage, startup"/>
-	<meta name="author" content="Abhiroop"/>
-	<meta name="viewport" content="width=device-width">
+  <head>
+    <title>Abhi's Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" type="text/css" href="css/contact_style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
-</head>
-<body>
-	<header>
-		<a href="index.html"><img src="img/engagelogo.png"></a>
-		<nav>
-			<ul class="nav">
-				<li class="nav"><a href="about.html">About</a></li>
-				<li class="nav"><a href="plans.html">Plans</a></li>
-				<li class="nav"><a href="contact.html">Contact</a></li>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+   	<link rel="stylesheet" type="text/css" href="css/styles.css">
+   	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet"> 
+
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   	<style type="text/css">
+   		.myPic{
+   			padding-top: 30px;
+   		}  		
+   	</style>
+  </head>
+
+  
+  <body>
+	<!-- blue navbar with logo on left and nav with dropdown on the right -->
+	<nav class="navbar navbar-expand-sm fixed-top navbar-light">
+		<!-- brand logo. can use for an image as well -->
+		<a class="navbar-brand" href="index.html"><img src="img/AbhiLogo.jpg"></a>
+		<!-- insert hidden button for the hamburder on mobile devices -->
+		<button 
+		class="navbar-toggler" 
+		type="button" 
+		data-toggle="collapse" 
+		data-target="#myMenu" 
+		aria-controls="navbarNavDropdown" 
+		aria-expanded="false">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- flexbox justify content end -->
+		<div class="collapse navbar-collapse justify-content-end" id="myMenu">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="about.html" class="nav-link">ABOUT</a>
+				</li>
+				
+				<!-- dropdown LI. Note structure -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="myDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">STARTUPS</a>
+					<div class="dropdown-menu" aria-labeledby="myDropdown">
+						<a class="dropdown-item" href="sophire.html">Sophire.com</a>
+						<a class="dropdown-item" href=engage.html>Engage Healthcare</a>
+						<a class="dropdown-item" href="bsq.html">BSQ Collextive</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="myDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
+					<div class="dropdown-menu" aria-labeledby="myDropdown">
+						<a class="dropdown-item" href="creativecoding.html">Creative Coding</a>
+						<a class="dropdown-item" href="inp.html">Ideation & Prototyping</a>
+						<a class="dropdown-item" href="vfs.html">Visual Foundation Studio</a>
+						<a class="dropdown-item" href="filmography.html">Filmography</a>
+						<a class="dropdown-item" href="vr.html">Virtual Reality</a>
+						<a class="dropdown-item" href="research.html">Research</a>
+						<a class="dropdown-item" href="photography.html">Photography</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a href="resume.html" class="nav-link">RESUME</a>
+				</li>
+
+				<li class="nav-item active">
+					<a href="contact.html" class="nav-link">CONTACT</a>
+				</li>
 			</ul>
-			<div class="One" onclick="dropdowntoggle()">
-				<img id="menuicon" src="img/menu-alt-512.png">
-				<div class="dropdown">
-					<a href="about.html" class="hide" id="hide">About</a>
-					<a href="plans.html" class="hide" id="hide2">Plans</a>
-					<a href="contact.html" class="hide" id="hide3">Contact</a>
-				</div>
-			</div>
-		</nav>
-	</header>
+		</div>
+	</nav>
+
+    </div>
+
+
+
+<!-- Main Content -->
+
+
 	<div class="container">
-		<h2 class="contactCaption grid_12 prefix_2 suffix_2 clearfix">Help us help you. Reach out to us.</h2>
-
-
-		<article class="abhi grid_6 clearfix">
-			<h2>CVK Abhiroop</h2>
-			<hr>
-			<img src="img/Abhi_2.jpg">
-			<ul>
-				<li><a href="https://www.linkedin.com/in/cvkabhiroop" class="fa fa-linkedin" target="_blank"></a></li>
-				<li>Email: abhiroop.cvk@nyu.edu</li>
-				<li>Phone: 929-499-7182</li>
-			</ul>
-		</article>
-
-		<article class="asam grid_6 clearfix">
-			<h2>Kesava Asam</h2>
-			<hr>
-			<img src="img/Asam_2.jpg">
-			<ul class="asamUL">
-				<li><a href="https://www.linkedin.com/in/kesava-reddy-asam-40174166/" class="fa fa-linkedin" target="_blank"></a></li>
-				<li>Email: kra277@nyu.edu</li>
-				<li>Phone: 901-517-5577</li>
-			</ul>
-		</article>
+		<div class="row">
+			<div class="col-md-4"><img class="myPic" src="img/High-Res-Headshot-(Brooklyn).jpg"></div>
+			<div class="col-md-6">
+				<p style="font-size: 30px;"><i class="fa fa-phone" aria-hidden="true" style="font-size: 30px; color: purple;"></i> : 929-499-7182</p>
+				<p style="font-size: 30px;"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 30px;"></i> : Brooklyn, New York</p>
+				<a href="mailto:abhiroop.cvk@nyu.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 50px; padding-top: 70px;"></i></a>
+			</div>
+			<div class="col-md-1">
+				<a href="https://www.linkedin.com/in/cvkabhiroop" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="font-size: 50px; "></i></a>
+				<a href="https://www.instagram.com/abhifyingmaster" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 50px;"></i></a>
+				<a href="https://www.instagram.com/abhiroopcvk" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 50px;"></i></a>
+				<a href="https://github.com/finolex" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size: 50px;"></i></a>
+				<a href="https://www.nostringsphotography.tumblr.com" target="_blank"><i class="fa fa-tumblr" aria-hidden="true" style="font-size: 50px; color: purple;"></i></a>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
 	</div>
 
-	<footer>
-		<h3>For more information, visit <a href="https://wp.nyu.edu/engagehealthcare" target="_blank">Engage Healthcare</a>.</h3>
-	</footer>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type="text/javascript">
-	function dropdowntoggle(){
-
-	var x = document.getElementById("hide");
-	var y = document.getElementById("hide2");
-	var z = document.getElementById("hide3");
 
 
-	if(x.style.display == 'none'){
-		x.style.display = 'block';
-	} else {
-		x.style.display = 'none';
-	}
 
-	if(y.style.display == 'none'){
-		y.style.display = 'block';
-	} else {
-		y.style.display = 'none';
-	}
-
-	if(z.style.display == 'none'){
-		z.style.display = 'block';
-	} else {
-		z.style.display = 'none';
-	}
-}
-</script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>

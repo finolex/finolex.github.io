@@ -1,111 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<title> Engage Healthcare About</title>
-	<meta charset="UTF-8"/>
-	<meta name="description" content="Affordable. Healthcare."/>
-	<meta name="keywords" content="healthcare, affordable, engage, startup"/>
-	<meta name="author" content="Abhiroop"/>
-	<meta name="viewport" content="width=device-width">
+  <head>
+    <title>Abhi's About</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" type="text/css" href="css/about_style.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
-</head>
-<body>
-	<header>
-		<a href="index.html"><img src="img/engagelogo.png"></a>
-		<nav>
-			<ul class="nav">
-				<li class="nav"><a href="about.html">About</a></li>
-				<li class="nav"><a href="plans.html">Plans</a></li>
-				<li class="nav"><a href="contact.html">Contact</a></li>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+   	<link rel="stylesheet" type="text/css" href="css/styles.css">
+   	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet"> 
+
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   	<style type="text/css">
+   	   	p{
+   	   		padding-top: 30px;
+   	   	}
+   	</style>
+  </head>
+  
+  <body>
+	<!-- blue navbar with logo on left and nav with dropdown on the right -->
+	<nav class="navbar navbar-expand-sm fixed-top navbar-light">
+		<!-- brand logo. can use for an image as well -->
+		<a class="navbar-brand" href="index.html"><img src="img/AbhiLogo.jpg"></a>
+		<!-- insert hidden button for the hamburder on mobile devices -->
+		<button 
+		class="navbar-toggler" 
+		type="button" 
+		data-toggle="collapse" 
+		data-target="#myMenu" 
+		aria-controls="navbarNavDropdown" 
+		aria-expanded="false">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- flexbox justify content end -->
+		<div class="collapse navbar-collapse justify-content-end" id="myMenu">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a href="about.html" class="nav-link">ABOUT</a>
+				</li>
+				
+				<!-- dropdown LI. Note structure -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="myDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">STARTUPS</a>
+					<div class="dropdown-menu" aria-labeledby="myDropdown">
+						<a class="dropdown-item" href="sophire.html">Sophire.com</a>
+						<a class="dropdown-item" href=engage.html>Engage Healthcare</a>
+						<a class="dropdown-item" href="bsq.html">BSQ Collextive</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="myDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
+					<div class="dropdown-menu" aria-labeledby="myDropdown">
+						<a class="dropdown-item" href="creativecoding.html">Creative Coding</a>
+						<a class="dropdown-item" href="inp.html">Ideation & Prototyping</a>
+						<a class="dropdown-item" href="vfs.html">Visual Foundation Studio</a>
+						<a class="dropdown-item" href="filmography.html">Filmography</a>
+						<a class="dropdown-item" href="vr.html">Virtual Reality</a>
+						<a class="dropdown-item" href="research.html">Research</a>
+						<a class="dropdown-item" href="photography.html">Photography</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a href="resume.html" class="nav-link">RESUME</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="contact.html" class="nav-link">CONTACT</a>
+				</li>
 			</ul>
-			<div class="One" onclick="dropdowntoggle()">
-				<img id="menuicon" src="img/menu-alt-512.png">
-				<div class="dropdown">
-					<a href="about.html" class="hide" id="hide">About</a>
-					<a href="plans.html" class="hide" id="hide2">Plans</a>
-					<a href="contact.html" class="hide" id="hide3">Contact</a>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<main class="container">
-		<div><h2 class="plansCaption grid_12 prefix_4 suffix_4 clearfix">Healthcare sucks.</h2></div>
-		<div class="grid_5 makesmall"><img src="img/Dollar_2.png"></div>
-		<div class="basic grid_7">
-			<article>
-				<h2>Problem</h2>
-				<hr>
-				<ul class="basicUL">
-					<li>Costs, waiting times, distances - They are terribly high.</li>
-					<li>Many people avoid their health care provider.</li>
-					<li>Illnesses and diseases breed, and pain continues.</li>
-				</ul>
-			</article>
 		</div>
+	</nav>
+
+    </div>
 
 
 
-		<div><h2 class="plansCaption grid_12 prefix_4 suffix_4 clearfix">Let's change it.</h2></div>
-		<div class="grid_5 makesmall"><img src="img/Clock_2.png"></div>
-		<div class="basic grid_7">
-			<article>
-				<h2>Method</h2>
-				<hr>
-				<ul class="basicUL">
-					<li>We match healthcare providers directly to you.</li>
-					<li>Waiting times drastically reduced.</li>
-					<li>Costs are predetermined, and very affordable.</li>
-				</ul>
-			</article>
-		</div>
+<!-- Main Content -->
+
+	<div class="container">
+		<h2>Story</h2>
+		<div>
+			<p>I like to consider myself as a Jack of all trades.</p>
+
+			<p>I take pride in being courageous and taking risks to start new ventures and to learn new things every day. I find this constantly keeps me stimulated and excited, and I don’t feel burdened by any learning curves.</p>
+
+			<p> As a child, my interest for digital media began when I was first introduced to animating. With just the slightest twitch of the mouse, I could control the emotions of my audience through my fingertips. Soon, I learned that my passion laid in storytelling and understanding my audience in order to deliver content that serves best of their time. I then began to divulge into film.</p>
+
+			<p>Picking up Photoshop, Lightroom and Illustrator followed shortly after. While it is more recently that I’ve stepped foot into the graphic design world of producing art, I was always fascinated by production of movies, music and art itself.</p>
+
+			<p>As an analog to my passion in digital media, almost an alter ego, I have always felt the altruistic need to add value to the lives of others. While the tech industry has experienced ineffable growth over the part couple of decades, the orthodox mindset that addresses healthcare boggles it down to remain inefficient, inaccessible, expensive, cumbersome and to some, frightening.</p>
+
+			<p>I became directly involved in the prototyping of the devices, as well understanding the role of entrepreneurship in society. I learned that businesses, when run well, have the potential to touch many lives, provide jobs, create value, and remain sustainable by adapting to the changing needs of their users.</p>
+
+			<p>I learned that I could combine all my strengths and work on creating a system that might one day evolve into a service that reminds anyone who is afraid or alone when feeling ill that they have resources that they can reach out to without having to fork out a fortune. Albeit in a very early developmental/seed stage, I have begun working on a healthcare venture to hopefully solve the quandaries of healthcare (more information can be found <a href="https://wp.nyu.edu/engagehealthcare" target="_blank">here</a>).</p>
+
+			<p>So here I stand now, in my Junior Year at NYU at 21. I have come a far way from the little boy furiously clicking away at his Macromedia Flash application in an attempt to make his sprites fly across the screen in front of flashy effects.</p>
+
+			<p>But I know I have a long way to go before I can be satiated with what I have achieved.  I will continue to fight for what I believe is important to me, because it is the only way I know how to move forward.</p>
+			<br>
+			<hr>
+			<hr>
+
+			<p style="color: #ffffba;">“My hero ... it’s me in 10 years ... So you see every day, every week, every month and every year of my life, my hero is always 10 years away ... And that’s just fine with me because that keeps me with somebody to keep on chasing.” </p>
+			<p style="color: #ffffba;">– Matthew McConaughey Oscar Speech 2014</p>
+	</div>
 
 
-		<div><h2 class="plansCaption grid_12 prefix_4 suffix_4 clearfix">Once and for all.</h2></div>
-		<div class="grid_5 makesmall"><img src="img/Sick_2.png"></div>
-		<div class="basic grid_7">
-			<article>
-				<h2>Solution</h2>
-				<hr>
-				<ul class="basicUL">
-					<li>Step 1: Log on securely to the E-Go App.</li>
-					<li>Step 2: Request for a healthcare provider.</li>
-					<li>Step 3: Be treated in your own bed within minutes!!!</li>
-				</ul>
-			</article>
-		</div>
-	</main>
-	
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type="text/javascript">
-	function dropdowntoggle(){
-		var x = document.getElementById("hide");
-		var y = document.getElementById("hide2");
-		var z = document.getElementById("hide3");
 
-
-		if(x.style.display == 'none'){
-			x.style.display = 'block';
-		} else {
-			x.style.display = 'none';
-		}
-
-		if(y.style.display == 'none'){
-			y.style.display = 'block';
-		} else {
-			y.style.display = 'none';
-		}
-
-		if(z.style.display == 'none'){
-			z.style.display = 'block';
-		} else {
-			z.style.display = 'none';
-		}
-	}
-</script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>
