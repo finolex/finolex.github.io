@@ -1,0 +1,33 @@
+/****************
+  Nav Bar
+******************/
+
+.navbar {
+  background-color: #ffb3ba;
+  opacity: 0.9; }
+  .navbar-light .navbar-nav li.active a {
+    color: #000; }
+    .navbar-light .navbar-nav li.active a:hover {
+      color: #000; }
+  .navbar-light .navbar-nav li a:hover {
+    color: #000; }
+  .navbar-light .navbar-nav a.nav-link {
+    color: #ffffba;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; }
+
+a.dropdown-item {
+  color: #ffffba;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px; }
+  a.dropdown-item .active {
+    color: #000;
+    background-color: #baffc9; }
+  a.dropdown-item:active {
+    color: #000;
+    background-color: #baffc9; }
+
+div.dropdown-menu.show {
+  background-color: #ffb3ba; }
+
+/*# sourceMappingURL=something.css.map */

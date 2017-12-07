@@ -1,0 +1,145 @@
+/****************
+	Body
+******************/
+
+/*background repeat*/
+body{
+	background-color: #ffb3ba;
+}
+
+/*container fluid padding*/
+
+.container-fluid{
+	padding-top: 100px;
+	background-color: #ffb3ba;
+}
+
+.container{
+	padding-top: 125px;
+}
+
+.col-md-4{
+	padding: 0;
+	margin: 0;
+}
+
+a:hover{
+	color: #ffffba;
+}
+
+
+/*font awesome styles*/
+i{
+	padding-top: 50px;
+	color: purple;
+}
+
+a i:hover{
+	transform: scale(1.3);
+}
+
+p, h2, h3, h4, h5, h6, h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-size: 25px;
+}
+
+h1{
+	font-size:70px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h2{
+	font-size:50px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+h3, h5{
+	border-radius: 10px;
+	background:#baffc9;
+	padding: 30px;
+	margin: 30px;
+	text-align: center;
+}
+
+
+h5{
+	padding: 20px 50px;
+	margin: 90px;
+	color: black;
+}
+
+h5:hover{
+	transform: scale(1.2);
+	background:  #baffc9;
+	color: #ffffba;
+}
+
+
+.miximg{
+   width: 530px;
+   margin: 10px;
+}
+
+.menubar{
+	padding-top: 15px;
+	position: absolute;
+	left: 15%;
+	border: black;
+}
+
+.btn{
+	color: black;
+}
+
+.btn:hover{
+	background-color:#baffc9;
+}
+
+.container-mix{
+	padding-top: 100px;
+}
+
+/*********************
+    Media Queries
+**********************/
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+.miximg{
+   width: 300px;
+}
+
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+.miximg{
+   width: 250px;
+}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.miximg{
+   width: 180px;
+}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+.miximg{
+   width: 250px;
+}
+
+.menubar{
+	position: absolute;
+	left: 10%;
+}
+
+}

@@ -1,0 +1,53 @@
+$fontUsed : 'Roboto', sans-serif;
+$fontUsedSize : 20px;
+
+	.navbar{
+		background-color: #ffb3ba;
+		opacity: 0.9;
+
+		.navbar-light &-nav{
+			li.active{
+				a{
+					color: #000;
+					&:hover{
+						color: #000;
+					}
+				}
+			}
+
+			li{
+				a:hover{
+					color: #000;
+				}
+			}
+
+			a.nav-link{
+				color: #ffffba;
+				font-family: $fontUsed;
+				font-size: $fontUsedSize;
+			}
+
+		}
+	}
+
+
+
+a.dropdown-item{
+	color: #ffffba;
+	font-family: $fontUsed;
+	font-size: $fontUsedSize;
+
+	.active{
+		color: #000;
+		background-color: #baffc9;
+	}
+
+	&:active{
+		color: #000;
+		background-color: #baffc9;
+	}
+}
+
+div.dropdown-menu.show{
+    background-color: #ffb3ba;
+}
