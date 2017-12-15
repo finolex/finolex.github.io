@@ -73,14 +73,14 @@ body{
 }
 
 a:hover{
-	color: #ffffba;
+	color: rebeccapurple;
 }
 
 
 /*font awesome styles*/
 i{
 	padding-top: 50px;
-	color: purple;
+	color: rebeccapurple;
 }
 
 a i:hover{
@@ -125,7 +125,7 @@ h5{
 h5:hover{
 	transform: scale(1.2);
 	background:  #baffc9;
-	color: #ffffba;
+	color: rebeccapurple;
 }
 
 
